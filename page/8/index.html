@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>天边的生活の博客</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://123/favicon.ico?v=1704111043588">
+<link rel="stylesheet" href="https://123/styles/main.css">
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
+
+
+
+<script src="/jquery.min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+<script src="/sakura.css"></script>
+
+    <meta name="description" content="到，天边去生活？">
+    
+      <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.12.0/katex.min.css">
+    
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://123">
+        <img src="https://123/images/avatar.png?v=1704111043588" class="site-logo">
+        <h1 class="site-title">天边的生活の博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/changelog" class="site-nav">
+            更新日志
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0" align="center">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      到，天边去生活？
+    </div>
+    <div class="site-footer">
+      <span id="timeDate"></span><span id="times"></span>
+<script language="javascript">
+ var now = new Date();
+ function createtime(){
+  var grt= new Date("09/23/2023 00:00:00");/*---这里是网站的启用时间--*/
+  now.setTime(now.getTime()+250);
+  days = (now - grt ) / 1000 / 60 / 60 / 24;
+  dnum = Math.floor(days);
+  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+  hnum = Math.floor(hours);
+  if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+  minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+  mnum = Math.floor(minutes);
+  if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+  snum = Math.round(seconds);
+  if(String(snum).length ==1 ){snum = "0" + snum;}
+  document.getElementById("timeDate").innerHTML = "本站已以极其不稳定的方式运行了 "+dnum+" 天    ";
+  document.getElementById("times").innerHTML = hnum + "    小时 " + mnum + " 分 " + snum + " 秒       ";
+ }
+ setInterval("createtime()",250);
+</script>
+<br>
+<br>
+<a href="https://icp.gov.moe/?keyword=20236685" target="_blank">萌ICP备20236685号</a> | <a class="rss" href="https://123/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-atcoder-abc314d-lower/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">[AtCoder ABC314D] LOWER 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-abc314c-rotate-colored-subsequence/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">[ABC314C] Rotate Colored Subsequence 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1860b-fancy-coins/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1860B Fancy Coins 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-at_abc272_e-add-and-mex/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">AT_abc272_e Add and Mex 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1353d-constructing-the-array/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1353D Constructing the Array 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1862b-sequence-game/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1862B Sequence Game 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1862c-flower-city-fence/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1862C Flower City Fence 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1862d-ice-cream-balls/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1862D Ice Cream Balls 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-26
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-cf1862e-kolya-and-movie-theatre/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">CF1862E Kolya and Movie Theatre 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-25
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://123/solution-at_abc317_c-remembering-the-days/"  style="color:rgb(89,120,243);">
+                  <h2 class="post-title">AT_abc317_c Remembering the Days 题解</h2>
+                </a>
+                <div class="post-date">
+					<i class="fa fa-calendar"></i> 
+					2023-09-25
+                </div>
+                <div class="post-abstract">
+				  <i class="fa fa-tag"></i>  
+				  
+					<a href="https://123/tag/PLW-pmSKN/" style="color:rgb(173,181,189)">题解
+					</a>
+                </div>
+              </div>
+              
+            </article>
+          
+
+          <div class="pagination-container">
+  
+    <a href="https://123/page/7/" class="prev"><i class="icon-arrow-ios-back-outline"></i> 上一页</a>
+  
+  
+    <a href="https://123/page/9/" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+<script>class Circle {
+  constructor({ origin, speed, color, angle, context }) {
+    this.origin = origin
+    this.position = { ...this.origin }
+    this.color = color
+    this.speed = speed
+    this.angle = angle
+    this.context = context
+    this.renderCount = 0
+  }
+
+  draw() {
+    this.context.fillStyle = this.color
+    this.context.beginPath()
+    this.context.arc(this.position.x, this.position.y, 2, 0, Math.PI * 2)
+    this.context.fill()
+  }
+
+  move() {
+    this.position.x = (Math.sin(this.angle) * this.speed) + this.position.x
+    this.position.y = (Math.cos(this.angle) * this.speed) + this.position.y + (this.renderCount * 0.3)
+    this.renderCount++
+  }
+}
+
+class Boom {
+  constructor ({ origin, context, circleCount = 10, area }) {
+    this.origin = origin
+    this.context = context
+    this.circleCount = circleCount
+    this.area = area
+    this.stop = false
+    this.circles = []
+  }
+
+  randomArray(range) {
+    const length = range.length
+    const randomIndex = Math.floor(length * Math.random())
+    return range[randomIndex]
+  }
+
+  randomColor() {
+    const range = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+    return '#' + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range)
+  }
+
+  randomRange(start, end) {
+    return (end - start) * Math.random() + start
+  }
+
+  init() {
+    for(let i = 0; i < this.circleCount; i++) {
+      const circle = new Circle({
+        context: this.context,
+        origin: this.origin,
+        color: this.randomColor(),
+        angle: this.randomRange(Math.PI - 1, Math.PI + 1),
+        speed: this.randomRange(1, 6)
+      })
+      this.circles.push(circle)
+    }
+  }
+
+  move() {
+    this.circles.forEach((circle, index) => {
+      if (circle.position.x > this.area.width || circle.position.y > this.area.height) {
+        return this.circles.splice(index, 1)
+      }
+      circle.move()
+    })
+    if (this.circles.length == 0) {
+      this.stop = true
+    }
+  }
+
+  draw() {
+    this.circles.forEach(circle => circle.draw())
+  }
+}
+
+class CursorSpecialEffects {
+  constructor() {
+    this.computerCanvas = document.createElement('canvas')
+    this.renderCanvas = document.createElement('canvas')
+
+    this.computerContext = this.computerCanvas.getContext('2d')
+    this.renderContext = this.renderCanvas.getContext('2d')
+
+    this.globalWidth = window.innerWidth
+    this.globalHeight = window.innerHeight
+
+    this.booms = []
+    this.running = false
+  }
+
+  handleMouseDown(e) {
+    const boom = new Boom({
+      origin: { x: e.clientX, y: e.clientY },
+      context: this.computerContext,
+      area: {
+        width: this.globalWidth,
+        height: this.globalHeight
+      }
+    })
+    boom.init()
+    this.booms.push(boom)
+    this.running || this.run()
+  }
+
+  handlePageHide() {
+    this.booms = []
+    this.running = false
+  }
+
+  init() {
+    const style = this.renderCanvas.style
+    style.position = 'fixed'
+    style.top = style.left = 0
+    style.zIndex = '999999999999999999999999999999999999999999'
+    style.pointerEvents = 'none'
+
+    style.width = this.renderCanvas.width = this.computerCanvas.width = this.globalWidth
+    style.height = this.renderCanvas.height = this.computerCanvas.height = this.globalHeight
+
+    document.body.append(this.renderCanvas)
+
+    window.addEventListener('mousedown', this.handleMouseDown.bind(this))
+    window.addEventListener('pagehide', this.handlePageHide.bind(this))
+  }
+
+  run() {
+    this.running = true
+    if (this.booms.length == 0) {
+      return this.running = false
+    }
+
+    requestAnimationFrame(this.run.bind(this))
+
+    this.computerContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
+    this.renderContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
+
+    this.booms.forEach((boom, index) => {
+      if (boom.stop) {
+        return this.booms.splice(index, 1)
+      }
+      boom.move()
+      boom.draw()
+    })
+    this.renderContext.drawImage(this.computerCanvas, 0, 0, this.globalWidth, this.globalHeight)
+  }
+}
+
+const cursorSpecialEffects = new CursorSpecialEffects()
+cursorSpecialEffects.init()</script>
+ <canvas width="1366" height="662" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+	<div id="goTopBtn"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+	<style>
+	#goTopBtn {
+		position: fixed;
+		line-height: 45px;
+		text-align: center;
+		width: 45px;
+		bottom: 35px;
+		height: 45px;
+		cursor: pointer;
+		display: none;
+		border-radius: 6px;
+		filter: progid: DXImageTrnsform.Microsoft.Shadow(color=#e1e1e1,direction=120,strength=4);
+		box-shadow: 8px 8px 10px rgba(225, 225, 225, 255);
+		font-size: 25px;
+		color: #999;
+		background-color: #f5f5f5;
+	}
+	</style>
+	<script>
+	$(window).scroll(function(){
+	   var sc=$(window).scrollTop();
+	   var rwidth=$(window).width()
+	   if(sc>0){
+		$("#goTopBtn").css("display","block");
+		$("#goTopBtn").css("left",(rwidth-60)+"px")
+	   }else{
+	   $("#goTopBtn").css("display","none");
+	   }
+	 })
+	 $("#goTopBtn").click(function(){
+	   var sc=$(window).scrollTop();
+	   $('body,html').animate({scrollTop:0},500);
+	 })
+
+	   </script>
+  </body>
+</html>

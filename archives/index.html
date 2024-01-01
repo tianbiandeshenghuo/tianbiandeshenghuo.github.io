@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>文章归档 | 天边的生活の博客</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://123/favicon.ico?v=1704111043588">
+<link rel="stylesheet" href="https://123/styles/main.css">
+
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
+
+
+
+<script src="/jquery.min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
+<script src="/sakura.css"></script>
+
+    <meta name="description" content="到，天边去生活？">
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://123">
+        <img src="https://123/images/avatar.png?v=1704111043588" class="site-logo">
+        <h1 class="site-title">天边的生活の博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/about" class="site-nav">
+            关于
+          </a>
+        
+      
+        
+          <a href="/changelog" class="site-nav">
+            更新日志
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0" align="center">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      到，天边去生活？
+    </div>
+    <div class="site-footer">
+      <span id="timeDate"></span><span id="times"></span>
+<script language="javascript">
+ var now = new Date();
+ function createtime(){
+  var grt= new Date("09/23/2023 00:00:00");/*---这里是网站的启用时间--*/
+  now.setTime(now.getTime()+250);
+  days = (now - grt ) / 1000 / 60 / 60 / 24;
+  dnum = Math.floor(days);
+  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+  hnum = Math.floor(hours);
+  if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+  minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+  mnum = Math.floor(minutes);
+  if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+  snum = Math.round(seconds);
+  if(String(snum).length ==1 ){snum = "0" + snum;}
+  document.getElementById("timeDate").innerHTML = "本站已以极其不稳定的方式运行了 "+dnum+" 天    ";
+  document.getElementById("times").innerHTML = hnum + "    小时 " + mnum + " 分 " + snum + " 秒       ";
+ }
+ setInterval("createtime()",250);
+</script>
+<br>
+<br>
+<a href="https://icp.gov.moe/?keyword=20236685" target="_blank">萌ICP备20236685号</a> | <a class="rss" href="https://123/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          
+
+          <h2 class="archives-title"><i class="fa fa-archive"></i> 文章归档</h2>
+          <div class="archives-container">
+            
+              <h2 class="year" data-aos="fade-in" data-aos-delay="500"><i class="fa fa-clock-o"></i> 2023</h2>
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at-abc329-c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc329_c Count xxx 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at-abc329-d/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc329_d Election Quick Report 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at-abc329-f/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc329_f Colored Ball 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1899b/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1899B 250 Thousand Tons of TNT 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1899c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1899C Yarik and Array 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-p9752/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        P9752 [CSP-S 2023] 密码锁 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/latex-zhi-nan-and-latex-ce-shi/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        LaTex 指南 &amp; LaTeX 测试
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1878e/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1878E Iva &amp; Pav 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1878c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1878C Vasilije in Cacak 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1878b/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1878B Aleksa and Stack 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1157a/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1157A Reachable Numbers 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2006ho_c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_JOI2006HO_C题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf834b/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF834B题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf926c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF926C 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc112_a/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc112_a 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc028_b/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc028_b题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_chokudai_s001_c/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_chokudai_s001_c 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc026_a/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc026_a题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_arc014_1/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_arc014_1题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_arc022_1/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_arc022_1 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_arc035_a/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_arc035_a 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_tenka1_2013_quala_a/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_tenka1_2013_qualA_a 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2020_yo1a_b-mu-yin-woshu-eru-counting-vowels/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2020_yo1a_b 母音を数える (Counting Vowels) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2021_yo1c_a-ji-suan-calculation/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2021_yo1c_a 計算 (Calculation) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2022_yo1a_a-yu-ri-remainder/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2022_yo1a_a 余り (Remainder) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_past201912_a-2-bei-tietuku/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_past201912_a 2 倍チェック 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2022_yo1b_d-xi-shao-nashu-rare-number/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2022_yo1b_d 希少な数 (Rare Number) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2022_yo1a_d-xiang-tojian-boxes-and-keys/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2022_yo1a_d 箱と鍵 (Boxes and Keys) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2022_yo1c_b-aisukurimu-ice-cream/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2022_yo1c_b アイスクリーム (Ice Cream) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2022_yo1c_c-yun-dong-hui-sports-day/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2022_yo1c_c 運動会 (Sports Day) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_bitflyer2018_final_a-zhi-zha/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_bitflyer2018_final_a 値札 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1765b-broken-keyboard/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1765B Broken Keyboard 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_iroha2019_day1_b-roringulao-ren-tohai/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_iroha2019_day1_b ローリング・老人と海 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_iroha2019_day1_c-halcyon/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_iroha2019_day1_c Halcyon 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_joi2013yo_a-su-ti-homework/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_joi2013yo_a 宿題 (Homework) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_jag2018summer_day2_a-10n7/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_jag2018summer_day2_a 10^N+7 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_past202004_a-erebeta/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_past202004_a エレベーター 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf465b-inbox-100500/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF465B Inbox (100500) 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf1154c-gourmet-cat/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF1154C Gourmet Cat 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf977c-less-or-equal/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF977C Less or Equal 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-p8754-lan-qiao-bei-wan-quan-ping-fang-shu/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        P8754 [蓝桥杯] 完全平方数  题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-p8897-usaco22dec-cow-college-b/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        P8897 [USACO22DEC] Cow College B 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc283_c-abc283c-cash-register/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc283_c [ABC283C] Cash Register 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc282_c-abc282c-string-delimiter/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc282_c [ABC282C] String Delimiter 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-cf333a-secrets/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        CF333A Secrets 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_past202107_c-ru-li-tietuku/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_past202107_c 入力チェック 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-at_abc241_d-abc241d-sequence-query/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        AT_abc241_d [ABC241D] Sequence Query 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-p9115-ioi2009-garage/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        P9115 [IOI2009] Garage 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-uva13095-tobby-and-query/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        UVA13095 Tobby and Query 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+                
+                  <article class="post">
+                    <a href="https://123/solution-sp8061-amr10g-christmas-play/" style="color:rgb(89,120,243);">
+                      <h2 class="post-title">
+                        SP8061 AMR10G - Christmas Play 题解
+                      </h2>
+                    </a>
+                  </article>
+                
+              
+            
+          </div>
+
+          <div class="pagination-container">
+  
+  
+    <a href="https://123/archives/page/2" class="next">下一页 <i class="icon-arrow-ios-forward-outline"></i></a>
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+<script>class Circle {
+  constructor({ origin, speed, color, angle, context }) {
+    this.origin = origin
+    this.position = { ...this.origin }
+    this.color = color
+    this.speed = speed
+    this.angle = angle
+    this.context = context
+    this.renderCount = 0
+  }
+
+  draw() {
+    this.context.fillStyle = this.color
+    this.context.beginPath()
+    this.context.arc(this.position.x, this.position.y, 2, 0, Math.PI * 2)
+    this.context.fill()
+  }
+
+  move() {
+    this.position.x = (Math.sin(this.angle) * this.speed) + this.position.x
+    this.position.y = (Math.cos(this.angle) * this.speed) + this.position.y + (this.renderCount * 0.3)
+    this.renderCount++
+  }
+}
+
+class Boom {
+  constructor ({ origin, context, circleCount = 10, area }) {
+    this.origin = origin
+    this.context = context
+    this.circleCount = circleCount
+    this.area = area
+    this.stop = false
+    this.circles = []
+  }
+
+  randomArray(range) {
+    const length = range.length
+    const randomIndex = Math.floor(length * Math.random())
+    return range[randomIndex]
+  }
+
+  randomColor() {
+    const range = ['8', '9', 'A', 'B', 'C', 'D', 'E', 'F']
+    return '#' + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range) + this.randomArray(range)
+  }
+
+  randomRange(start, end) {
+    return (end - start) * Math.random() + start
+  }
+
+  init() {
+    for(let i = 0; i < this.circleCount; i++) {
+      const circle = new Circle({
+        context: this.context,
+        origin: this.origin,
+        color: this.randomColor(),
+        angle: this.randomRange(Math.PI - 1, Math.PI + 1),
+        speed: this.randomRange(1, 6)
+      })
+      this.circles.push(circle)
+    }
+  }
+
+  move() {
+    this.circles.forEach((circle, index) => {
+      if (circle.position.x > this.area.width || circle.position.y > this.area.height) {
+        return this.circles.splice(index, 1)
+      }
+      circle.move()
+    })
+    if (this.circles.length == 0) {
+      this.stop = true
+    }
+  }
+
+  draw() {
+    this.circles.forEach(circle => circle.draw())
+  }
+}
+
+class CursorSpecialEffects {
+  constructor() {
+    this.computerCanvas = document.createElement('canvas')
+    this.renderCanvas = document.createElement('canvas')
+
+    this.computerContext = this.computerCanvas.getContext('2d')
+    this.renderContext = this.renderCanvas.getContext('2d')
+
+    this.globalWidth = window.innerWidth
+    this.globalHeight = window.innerHeight
+
+    this.booms = []
+    this.running = false
+  }
+
+  handleMouseDown(e) {
+    const boom = new Boom({
+      origin: { x: e.clientX, y: e.clientY },
+      context: this.computerContext,
+      area: {
+        width: this.globalWidth,
+        height: this.globalHeight
+      }
+    })
+    boom.init()
+    this.booms.push(boom)
+    this.running || this.run()
+  }
+
+  handlePageHide() {
+    this.booms = []
+    this.running = false
+  }
+
+  init() {
+    const style = this.renderCanvas.style
+    style.position = 'fixed'
+    style.top = style.left = 0
+    style.zIndex = '999999999999999999999999999999999999999999'
+    style.pointerEvents = 'none'
+
+    style.width = this.renderCanvas.width = this.computerCanvas.width = this.globalWidth
+    style.height = this.renderCanvas.height = this.computerCanvas.height = this.globalHeight
+
+    document.body.append(this.renderCanvas)
+
+    window.addEventListener('mousedown', this.handleMouseDown.bind(this))
+    window.addEventListener('pagehide', this.handlePageHide.bind(this))
+  }
+
+  run() {
+    this.running = true
+    if (this.booms.length == 0) {
+      return this.running = false
+    }
+
+    requestAnimationFrame(this.run.bind(this))
+
+    this.computerContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
+    this.renderContext.clearRect(0, 0, this.globalWidth, this.globalHeight)
+
+    this.booms.forEach((boom, index) => {
+      if (boom.stop) {
+        return this.booms.splice(index, 1)
+      }
+      boom.move()
+      boom.draw()
+    })
+    this.renderContext.drawImage(this.computerCanvas, 0, 0, this.globalWidth, this.globalHeight)
+  }
+}
+
+const cursorSpecialEffects = new CursorSpecialEffects()
+cursorSpecialEffects.init()</script>
+ <canvas width="1366" height="662" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+	<div id="goTopBtn"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+	<style>
+	#goTopBtn {
+		position: fixed;
+		line-height: 45px;
+		text-align: center;
+		width: 45px;
+		bottom: 35px;
+		height: 45px;
+		cursor: pointer;
+		display: none;
+		border-radius: 6px;
+		filter: progid: DXImageTrnsform.Microsoft.Shadow(color=#e1e1e1,direction=120,strength=4);
+		box-shadow: 8px 8px 10px rgba(225, 225, 225, 255);
+		font-size: 25px;
+		color: #999;
+		background-color: #f5f5f5;
+	}
+	</style>
+	<script>
+	$(window).scroll(function(){
+	   var sc=$(window).scrollTop();
+	   var rwidth=$(window).width()
+	   if(sc>0){
+		$("#goTopBtn").css("display","block");
+		$("#goTopBtn").css("left",(rwidth-60)+"px")
+	   }else{
+	   $("#goTopBtn").css("display","none");
+	   }
+	 })
+	 $("#goTopBtn").click(function(){
+	   var sc=$(window).scrollTop();
+	   $('body,html').animate({scrollTop:0},500);
+	 })
+
+	   </script>
+  </body>
+</html>
