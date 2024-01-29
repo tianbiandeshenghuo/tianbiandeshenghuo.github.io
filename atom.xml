@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://123</id>
+    <id>https://tianbiandeshenghuo.github.io</id>
     <title>天边的生活の博客</title>
     <updated>2024-01-01T12:15:20.049Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://123"/>
-    <link rel="self" href="https://123/atom.xml"/>
+    <link rel="alternate" href="https://tianbiandeshenghuo.github.io"/>
+    <link rel="self" href="https://tianbiandeshenghuo.github.io/atom.xml"/>
     <subtitle>到，天边去生活？</subtitle>
-    <logo>https://123/images/avatar.png</logo>
-    <icon>https://123/favicon.ico</icon>
+    <logo>https://tianbiandeshenghuo.github.io/images/avatar.png</logo>
+    <icon>https://tianbiandeshenghuo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2024, 天边的生活の博客</rights>
     <entry>
         <title type="html"><![CDATA[AT_abc329_c Count xxx 题解]]></title>
-        <id>https://123/solution-at-abc329-c/</id>
-        <link href="https://123/solution-at-abc329-c/">
+        <id>https://tianbiandeshenghuo.github.io/solution-at-abc329-c/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-at-abc329-c/">
         </link>
         <updated>2023-11-18T14:20:25.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -54,8 +54,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[AT_abc329_d Election Quick Report 题解]]></title>
-        <id>https://123/solution-at-abc329-d/</id>
-        <link href="https://123/solution-at-abc329-d/">
+        <id>https://tianbiandeshenghuo.github.io/solution-at-abc329-d/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-at-abc329-d/">
         </link>
         <updated>2023-11-18T14:19:52.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -99,8 +99,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[AT_abc329_f Colored Ball 题解]]></title>
-        <id>https://123/solution-at-abc329-f/</id>
-        <link href="https://123/solution-at-abc329-f/">
+        <id>https://tianbiandeshenghuo.github.io/solution-at-abc329-f/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-at-abc329-f/">
         </link>
         <updated>2023-11-18T14:19:16.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -150,8 +150,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[CF1899B 250 Thousand Tons of TNT 题解]]></title>
-        <id>https://123/solution-cf1899b/</id>
-        <link href="https://123/solution-cf1899b/">
+        <id>https://tianbiandeshenghuo.github.io/solution-cf1899b/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-cf1899b/">
         </link>
         <updated>2023-11-18T07:18:18.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -224,8 +224,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[CF1899C Yarik and Array 题解]]></title>
-        <id>https://123/solution-cf1899c/</id>
-        <link href="https://123/solution-cf1899c/">
+        <id>https://tianbiandeshenghuo.github.io/solution-cf1899c/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-cf1899c/">
         </link>
         <updated>2023-11-18T07:17:29.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -281,8 +281,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[P9752 [CSP-S 2023] 密码锁 题解]]></title>
-        <id>https://123/solution-p9752/</id>
-        <link href="https://123/solution-p9752/">
+        <id>https://tianbiandeshenghuo.github.io/solution-p9752/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-p9752/">
         </link>
         <updated>2023-10-22T03:39:24.000Z</updated>
         <content type="html"><![CDATA[<p>这种题目放 TG T1 也是真的绷不住了。</p>
@@ -369,8 +369,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[LaTex 指南 & LaTeX 测试]]></title>
-        <id>https://123/latex-zhi-nan-and-latex-ce-shi/</id>
-        <link href="https://123/latex-zhi-nan-and-latex-ce-shi/">
+        <id>https://tianbiandeshenghuo.github.io/latex-zhi-nan-and-latex-ce-shi/</id>
+        <link href="https://tianbiandeshenghuo.github.io/latex-zhi-nan-and-latex-ce-shi/">
         </link>
         <updated>2023-09-30T11:17:30.000Z</updated>
         <content type="html"><![CDATA[<p>本文转载于 <a href="https://www.luogu.com.cn/blog/IowaBattleship/latex-gong-shi-tai-quan">IowaBattleship-LaTeX 数学公式大全</a>。</p>
@@ -1387,8 +1387,8 @@ s-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=
     </entry>
     <entry>
         <title type="html"><![CDATA[CF1878E Iva & Pav 题解]]></title>
-        <id>https://123/solution-cf1878e/</id>
-        <link href="https://123/solution-cf1878e/">
+        <id>https://tianbiandeshenghuo.github.io/solution-cf1878e/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-cf1878e/">
         </link>
         <updated>2023-09-30T09:04:37.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -1466,8 +1466,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[CF1878C Vasilije in Cacak 题解]]></title>
-        <id>https://123/solution-cf1878c/</id>
-        <link href="https://123/solution-cf1878c/">
+        <id>https://tianbiandeshenghuo.github.io/solution-cf1878c/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-cf1878c/">
         </link>
         <updated>2023-09-30T09:04:21.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
@@ -1514,8 +1514,8 @@ signed main(){
     </entry>
     <entry>
         <title type="html"><![CDATA[CF1878B Aleksa and Stack 题解]]></title>
-        <id>https://123/solution-cf1878b/</id>
-        <link href="https://123/solution-cf1878b/">
+        <id>https://tianbiandeshenghuo.github.io/solution-cf1878b/</id>
+        <link href="https://tianbiandeshenghuo.github.io/solution-cf1878b/">
         </link>
         <updated>2023-09-30T09:03:52.000Z</updated>
         <content type="html"><![CDATA[<h1 id="题意简述">题意简述</h1>
