@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+
+<title>Page Not Found | 天边的生活的博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      text-align: center;
+    }
+    .box {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .number {
+      font-size: 80px;
+      color: #666;
+      font-weight: bold;
+    }
+    .text {
+      font-size: 14px;
+      margin: 24px;
+      color: #333;
+    }
+    .btn-container {
+      display: flex;
+      justify-content: center;
+    }
+    .btn {
+      padding: 8px 24px;
+      display: inline-block;
+      text-decoration: none;
+      background: #fff;
+      border: 2px solid #efefef;
+      color: #333;
+      margin: 24px;
+      border-radius: 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    .footer {
+      padding: 16px;
+      border-top: 1px solid #efefef;
+      color: #777;
+      font-weight: lighter;
+    }
+    .footer a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #000;
+    }
+  </style>
+</head>
+<link rel="stylesheet" href="/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="/favicon.ico?v=1695514914542">
+<link rel="stylesheet" href="/styles/main.css">
+
+
+
+<link rel="stylesheet" href="/aos.css" />
+<script src="/vue.js"></script>
+
+
+
+    <meta name="description" content="到，天边去生活？">
+
+      <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/KaTeX/0.16.9/katex.min.css">
+
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://blog.tbdsh.top">
+        <img src="/images/avatar.png?v=1695514914542" class="site-logo">
+        <h1 class="site-title">天边的生活の博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+
+
+          <a href="/" class="site-nav">
+            首页
+          </a>
+
+
+
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+
+
+
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+
+
+
+          <a href="/about" class="site-nav">
+            关于
+          </a>
+          <a href = "/changelog" class="site-nav">
+            更新日志
+          </a>
+
+
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="site-description">
+      到，天边去生活？
+      <br>
+      <br>
+<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
+<script language="javascript">
+ var now = new Date();
+ function createtime(){
+  var grt= new Date("09/23/2023 00:00:00");/*---这里是网站的启用时间--*/
+  now.setTime(now.getTime()+250);
+  days = (now - grt ) / 1000 / 60 / 60 / 24;
+  dnum = Math.floor(days);
+  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+  hnum = Math.floor(hours);
+  if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+  minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+  mnum = Math.floor(minutes);
+  if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+  snum = Math.round(seconds);
+  if(String(snum).length ==1 ){snum = "0" + snum;}
+  document.getElementById("timeDate").innerHTML = "本站已以极其不稳定的方式运行了 "+dnum+" 天 ";
+  document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+ }
+ setInterval("createtime()",250);
+</script>
+    </div>
+    <div class="site-footer">
+      <a href="https://icp.gov.moe/?keyword=20246653" target="_blank">萌ICP备20246653号</a>
+    </div>
+  </div>
+</div>
+<div class="main-container" margin="0 auto">
+  <div class="content-container" data-aos="fade-up">
+  <body>
+    <div class="box">
+      <div class="number">4 0 4</div>
+      <div class="text">
+        Page not found
+      </div>
+      <div class="btn-container">
+        <a class="btn" id="back">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" style="margin-right: 8px;">
+            <path fill="none" d="M0 0h24v24H0z"/>
+            <path d="M5.828 7l2.536 2.536L6.95 10.95 2 6l4.95-4.95 1.414 1.414L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 1 0 0-12H5.828z"/>
+          </svg>
+          Back
+        </a>
+      </div>
+    </div>
+  </body>
+
+
+    <div class="pagination-container">
+
+
+</div>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="/aos.js"></script>
+<script type="application/javascript">
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
